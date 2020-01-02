@@ -322,10 +322,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-XYXLLogining_Example/Pods-XYXLLogining_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/XYXLLogining/XYXLLogining.framework",
+				"${BUILT_PRODUCTS_DIR}/XYXLNetworking/XYXLNetworking.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XYXLLogining.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XYXLNetworking.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

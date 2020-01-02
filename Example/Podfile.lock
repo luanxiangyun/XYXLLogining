@@ -1,0 +1,33 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - XYXLLogining (0.1.0):
+    - XYXLNetworking
+  - XYXLNetworking (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - XYXLLogining (from `../`)
+  - XYXLNetworking (from `../../XYXLNetworking`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  XYXLLogining:
+    :path: "../"
+  XYXLNetworking:
+    :path: "../../XYXLNetworking"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  XYXLLogining: 5bc17dd877e87c4093670ddd43bd752ed2865943
+  XYXLNetworking: 1b151e4ff9ead7a1d717611fcf38786f62472f71
+
+PODFILE CHECKSUM: 3742b9f260c5e713a791bf31007901bc4283e920
+
+COCOAPODS: 1.8.4

@@ -4,7 +4,9 @@ platform :ios, '8.0'
 
 target 'XYXLLogining_Example' do
   pod 'XYXLLogining', :path => '../'
-
+  pod 'XYXLNetworking', :path => '../../XYXLNetworking'
+  
+  
   target 'XYXLLogining_Tests' do
     inherit! :search_paths
 

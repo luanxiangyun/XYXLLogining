@@ -1,0 +1,6 @@
+framework module XYXLLogining {
+  umbrella header "XYXLLogining-umbrella.h"
+
+  export *
+  module * { export * }
+}
